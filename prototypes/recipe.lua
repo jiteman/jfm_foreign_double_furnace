@@ -7,7 +7,8 @@ data:extend( {
 		energy_required = 5,
 		
 		normal = {
-			enabled = false,			
+			enabled = false,
+			energy_required = 5,			
 			ingredients = {
 				{ "steel-plate", 15 },
 				{ "advanced-circuit", 5 },
@@ -16,7 +17,8 @@ data:extend( {
 			result = "double-furnace"
 		},
 		expensive = {
-			enabled = false,			
+			enabled = false,
+			energy_required = 5,
 			ingredients = {
 				{ "steel-plate", 30 },
 				{ "advanced-circuit", 10 },
